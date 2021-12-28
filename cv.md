@@ -41,7 +41,7 @@ function finalGrade (exam, projects) {
 ```
 
 ## Projects:
-* This [CV](https://github.com/SanchoGR/rsschool-cv "My CV").
+* [This CV](https://SanchoGR.github.io/rsschool-cv/ "My CV").
 
 ## Education:
 * **University:**
