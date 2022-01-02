@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Grekov CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cv_container">
+
+        <header class="cv_header">
+            <nav class="header_navigation">
+                <ul class="header_nav_list">
+                    <li>
+                        <a href="#about_me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code_example">Code Example</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <h1>Alexander Grekov</h1>
+        </header>
+
+        <main class="cv_main_content">
+            <div class="content_user_items">
+                <section class="about_item" id="about_me">
+                    <h2>About Me:</h2>
+                    <ul class="section_list">
+                        <li class="section_list_item"><b>Primary goal:</b> become a front-end developer</li>
+                        <li class="section_list_item"><b>Dream:</b> gather a team of like-minded people and create a
+                            "lamp" RPG (something like a Star Wars: Knights of the Old Republic)</li>
+                        <li class="section_list_item">
+                            <b>Strengths:</b>
+                            <ul class="article_sublist">
+                                <li>sociability</li>
+                                <li>perseverance</li>
+                                <li>fast learner</li>
+                                <li>a constant desire to learn something new</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="skills_item" id="skills">
+                    <h2>Skills:</h2>
+                    <ul class="section_list">
+                        <li class="section_list_item"><b>HTML</b></li>
+                        <li class="section_list_item"><b>CSS</b></li>
+                        <li class="section_list_item"><b>JavaScript (in progress)</b></li>
+                    </ul>
+                </section>
+
+                <section class="code_item" id="code_example">
+                    <h2>Code Example:</h2>
+                    <p>My solution to
+                        <a href="https://www.codewars.com/kata/5ad0d8356165e63c140014d4" target="_blank">
+                            this Kata
+                        </a>
+                        on Codewars:
+                    </p>
+                    <div class="example_box">
+                        <p class="code">
+                            <span class="code_viol_color">function</span> <span
+                                class="code_yellow_color">finalGrade</span> (exam, projects) {<br>
+                            <span class="code_viol_color">&nbsp;&nbsp;&nbsp;if</span> (exam > 90 || projects > 10) {<br>
+                            <span class="code_viol_color">&nbsp;&nbsp;&nbsp;return</span> 100;<br>
+                            &nbsp;&nbsp;&nbsp;}<br>
+                            <span class="code_viol_color">&nbsp;&nbsp;&nbsp;else if</span> (exam > 75 && projects >= 5)
+                            {<br>
+                            <span class="code_viol_color">&nbsp;&nbsp;&nbsp;return</span> 90;<br>
+                            &nbsp;&nbsp;&nbsp;}<br>
+                            <span class="code_viol_color">&nbsp;&nbsp;&nbsp;else if</span> (exam > 50 && projects >= 2)
+                            {<br>
+                            <span class="code_viol_color">&nbsp;&nbsp;&nbsp;return</span> 75;<br>
+                            &nbsp;&nbsp;&nbsp;}<br>
+                            <span class="code_viol_color">&nbsp;&nbsp;&nbsp;return</span> 0;<br>
+                            };
+                        </p>
+                    </div>
+                </section>
+
+                <section class="prj_item" id="projects">
+                    <h2>Projects:</h2>
+                    <ul class="section_list">
+                        <li class="section_list_item">
+                            <a class="cv_link" href="https://sanchogr.github.io/rsschool-cv/" target="_blank">
+                                This CV
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="educ_item" id="education">
+                    <h2>Education:</h2>
+                    <ul class="section_list">
+                        <li class="section_list_item">
+                            <b>Univercity:</b>
+                            <ul class="article_sublist">
+                                <li>Belarusian State University, Journalism (Print Media major)</li>
+                            </ul>
+                        </li>
+
+                        <li class="section_list_item">
+                            <b>Courses:</b>
+                            <ul class="article_sublist">
+                                <li>
+                                    <a href="https://rs.school/js-stage0/" target="_blank">
+                                        RS School Course «JavaScript/Front-end. Stage 0»
+                                    </a> (in progress)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="lang_item" id="languages">
+                    <h2>Languages:</h2>
+                    <ul class="section_list">
+                        <li class="section_list_item"><b>Russian:</b> Native</li>
+                        <li class="section_list_item"><b>English:</b> A1-</li>
+                    </ul>
+                </section>
+            </div>
+
+            <aside class="content_user_info">
+                <section class="user_contacts">
+                    <img class="user_photo" src="assets/img/user_photo.jpg" alt="my_photo">
+                    <h2>CONTACTS:</h2>
+                    <ul class="contacts_list">
+                        <li><b>Location:</b> <span>Minsk, Belarus</span></li>
+                        <li><b>Phone:</b> <span>+375 (29) 176-78-96</span></li>
+                        <li><b>Telegram:</b> <span>@Cucumb4</span></li>
+                        <li><b>E-mail:</b> <span>grek.bsu@gmail.com</span></li>
+                        <li><b>Discord (rs-school):</b> <span>@SanchoGR</span></li>
+                    </ul>
+                </section>
+
+                <img class="aside_pic" src="assets/img/aside_pic.png" alt="way">
+            </aside>
+        </main>
+
+        <footer class="cv_footer">
+            <div class="footer_links_box">
+                <a class="footer_github_link" href="https://github.com/SanchoGR" target="_blank">
+                    <img class="github_logo" src="assets/svg/github.svg" alt="my_github">
+                </a>
+
+                <a class="footer_rss_link" href="https://rs.school/js/" target="_blank">
+                    <img class="rss_logo" src="assets/svg/rs_school_js.svg" alt="rss_logo">
+                </a>
+            </div>
+
+            <p class="creation_year">© 2021</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
