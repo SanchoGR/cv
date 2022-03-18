@@ -1,3 +1,3 @@
-## [rsschool-cv (markdown)](https://sanchogr.github.io/rsschool-cv/cv "my_CV_in_markdown")
+## [rsschool-cv (markdown)](https://sanchogr.github.io/cv/cv "my_CV_in_markdown")
 
-## [rsschool-cv (layout)](https://sanchogr.github.io/rsschool-cv/ "layout_of_my_CV")
+## [rsschool-cv (layout)](https://sanchogr.github.io/cv/ "layout_of_my_CV")
